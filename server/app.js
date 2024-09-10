@@ -7,6 +7,8 @@ const grammarCheckRoute = require("./routes/grammarcheck");
 const spellCheckRoute = require("./routes/spellCheck");
 const PORT = process.env.PORT || 8000;
 
+//https://api.openai.com/v1/chat/completions
+
 // Middleware
 app.use(cors()); //prevent CORS errors
 app.use(express.json()); // for parsing application/json
